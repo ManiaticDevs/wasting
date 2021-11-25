@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repl_python3_wasting"
+version = "0.1.0"
+description = "joe joe joe joe joe joe"
+authors = ["we have more than one"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+noise = "^1.2.2"
+colorama = "^0.4.4"
+pydub = "^0.25.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
