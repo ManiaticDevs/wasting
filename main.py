@@ -21,7 +21,6 @@ print(f"{cr.Fore.GREEN}this part is crucial to do")
 time.sleep(3)
 clearConsole()
 
-play(song)
 print("Loading main.py {⬜         } 20%") #Loading
 time.sleep(2)
 clearConsole()
@@ -47,20 +46,20 @@ time.sleep(0.5)
 print(f"{cr.Fore.GREEN}Mysterious:You don't have enough time to WASTE.")
 
 time.sleep(2)
-print(f"{cr.Fore.LIGHTBLUE_EX}Respond With: | What | Where Am I |")
+print(f"{cr.Fore.LIGHTBLUE_EX}Respond With: | What. | Where am I? |")
 time.sleep(1)
 
 user_input1 = input(f"{cr.Fore.LIGHTRED_EX} " + user + " : ")
 
 time.sleep(2)
 
-if user_input1=="What":
+if user_input1=="What.":
     print(f"{cr.Fore.GREEN}Mysterious:Wait Did You Lose Your Memory?")
 
-if user_input1=="Where Am I":
+if user_input1=="Where am I?":
     print(f"{cr.Fore.GREEN}Mysterious:Wait Did You Lose Your Memory?")
 
-if user_input1.lower() == "what" or user_input1.lower() == 'where am i':
+if user_input1.lower() == "what" or user_input1.lower() == 'where am i?':
     print(f"{cr.Fore.GREEN}Mysterious:Wait Did You Lose Your Memory?")
 
 else:
